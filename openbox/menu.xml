@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<openbox_menu>
+  <menu id="root-menu" label="OpenBox 3">
+    <menu id="1" label="Development">
+      <item label="Sublime Text">
+        <action name="Execute">
+          <execute>subl</execute>
+        </action>
+      </item>
+    </menu>
+    <menu id="2" label="Editors">
+      <item label="Vim">
+        <action name="Execute">
+          <execute>xfce4-terminal -e vim</execute>
+        </action>
+      </item>
+    </menu>
+    <menu id="7" label="Multimedia">
+      <item label="ClipGrab">
+        <action name="Execute">
+          <execute>clipgrab</execute>
+        </action>
+      </item>
+      <item label="mpv Media Player">
+        <action name="Execute">
+          <execute>mpv --player-operation-mode=pseudo-gui</execute>
+        </action>
+      </item>
+      <item label="ncmpcpp">
+        <action name="Execute">
+          <execute>xfce4-terminal -e ncmpcpp</execute>
+        </action>
+      </item>
+    </menu>
+    <menu id="5" label="Network">
+      <item label="Chromium">
+        <action name="Execute">
+          <execute>chromium</execute>
+        </action>
+      </item>
+    </menu>
+    <menu id="19" label="Shells">
+      <item label="ranger">
+        <action name="Execute">
+          <execute>xfce4-terminal -e ranger</execute>
+        </action>
+      </item>
+      <item label="Thunar File Manager">
+        <action name="Execute">
+          <execute>thunar</execute>
+        </action>
+      </item>
+      <item label="Xfce Terminal">
+        <action name="Execute">
+          <execute>xfce4-terminal</execute>
+        </action>
+      </item>
+    </menu>
+    <menu id="37" label="System">
+      <menu id="36" label="Settings">
+        <item label="Customize Look and Feel">
+          <action name="Execute">
+            <execute>lxappearance</execute>
+          </action>
+        </item>
+        <item label="File Manager Settings">
+          <action name="Execute">
+            <execute>thunar-settings</execute>
+          </action>
+        </item>
+        <item label="Openbox Configuration Manager">
+          <action name="Execute">
+            <execute>obconf</execute>
+          </action>
+        </item>
+        <item label="Preferred Applications">
+          <action name="Execute">
+            <execute>exo-preferred-applications</execute>
+          </action>
+        </item>
+        <item label="Tint2 Settings">
+          <action name="Execute">
+            <execute>tint2conf</execute>
+          </action>
+        </item>
+        <item label="Xfce Terminal">
+          <action name="Execute">
+            <execute>xfce4-terminal --preferences</execute>
+          </action>
+        </item>
+      </menu>
+    </menu>
+    <menu id="38" label="Utilities">
+      <item label="">
+        <action name="Execute">
+          <execute>xsetroot</execute>
+        </action>
+      </item>
+    </menu>
+    <separator/>
+    <menu id="40" label="OpenBox">
+      <menu id="client-list-menu"/>
+      <item label="Reconfigure">
+        <action name="Reconfigure"/>
+      </item>
+      <separator/>
+      <item label="Exit">
+        <action name="Exit"/>
+      </item>
+    </menu>
+  </menu>
+  <separator/>
+      </item>
+    </menu>
+  </menu>
+</openbox_menu>
